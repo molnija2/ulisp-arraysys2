@@ -1,5 +1,5 @@
 This is lisp interpretator, based on "ulisp" project which is developed by David Johnson-Davies (http://www.ulisp.com). 
-This code can be used for the ESP32-2432S028R device or for other ESP32 modules.
+This code can be used for the ESP32-2432S028R device ((ESP32-WROOM-32 board with TFT and touchscreen) or for other ESP32 modules.
 In this code new system of arrays is added.
 New array commands are named as "aref*", "arrayp*", "make-array*", and "del-array*" insteed of "aref", "arrayp", "make-array".
 Examples of calls:

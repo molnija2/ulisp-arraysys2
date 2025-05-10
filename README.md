@@ -41,3 +41,15 @@ After reseting device:
    (4 4)
 
    5480>
+
+The sources are contain new arrays typewhich are on or off by
+
+    #define DEF_ARRAY2
+
+You can found new array implementation parts by search
+
+    #if defined(DEF_ARRAY2)
+
+in this sources.
+
+

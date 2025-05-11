@@ -430,7 +430,6 @@ void* StackBottom;
 
 #if defined(DEF_ARRAY2)
 symbol_t Aref2_name ;
-#endif
 
 #define array2p(x)          ((x) != NULL && (x)->type == ARRAY2)
 
@@ -444,6 +443,8 @@ typedef struct {
   object bufferobj ;
   object *obj_pointer ;
 } array_desc_t;
+
+#endif
 
 
 // Flags
